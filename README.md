@@ -1,4 +1,4 @@
-## **this is my full stact react + flask template**
+## **this is my full stack react + flask template**
 
 ---------------- Tech Stack ------------------
 
