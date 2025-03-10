@@ -2,7 +2,6 @@
 
 ---------------- Tech Stack ------------------
 
-
 ## **ReactJs**
 
 ## **Python (Flask WebFramework)**
@@ -21,4 +20,4 @@
 
 ## **JWT Token-based Authentication**
 
-last update March 9, 2025
+last update March 10, 2025
