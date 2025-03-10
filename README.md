@@ -1,9 +1,9 @@
 ## **this is my full stact react + flask template**
 
 ---------------- Tech Stack ------------------
-**ReactJs**
 
----
+
+**ReactJs**
 
 ## **Python (Flask WebFramework)**
 
