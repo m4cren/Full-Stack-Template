@@ -3,7 +3,7 @@
 ---------------- Tech Stack ------------------
 
 
-**ReactJs**
+## **ReactJs**
 
 ## **Python (Flask WebFramework)**
 
