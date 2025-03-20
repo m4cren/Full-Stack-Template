@@ -12,7 +12,7 @@ from flask_jwt_extended import (
     get_jwt,
 )
 
-from db_models import *
+
 
 db = SQLAlchemy()
 migrate = Migrate()

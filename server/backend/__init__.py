@@ -10,6 +10,9 @@ from .sockets import SocketIO
 import os
 import pymysql
 from flask_cors import CORS
+from dotenv import load_dotenv
+
+load_dotenv()
 
 pymysql.install_as_MySQLdb()
 
@@ -17,8 +20,8 @@ pymysql.install_as_MySQLdb()
 def create_website():
 
     app = Flask(__name__)
-    app.config["SECRET_KEY"] = os.urandom(10)
-    app.config["JWT_SECRET_KEY"] = os.urandom(27)
+    app.config["SECRET_KEY"] = os.getenv('SECRET_KEY')
+    app.config["JWT_SECRET_KEY"] = os.getenv('JWT_KEY')
     CORS(app, supports_credentials=True)
 
   

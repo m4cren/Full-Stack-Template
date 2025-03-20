@@ -2,13 +2,19 @@
 
 
 from .extensions import db
+from dotenv import load_dotenv
+import urllib
+import os
 
-host = " "
-schema = " "
-username = "root"
-password = f" "
-port = " "
+load_dotenv()
 
+host = os.getenv('HOST')
+schema = os.getenv('SCHEMA')
+username = os.getenv('USERNAME_DB')
+password = urllib.parse.quote(os.getenv("PASSWORD", ""))
+port = os.getenv('PORT')
+
+print(password, username)
 
 
 def save_data(data):
